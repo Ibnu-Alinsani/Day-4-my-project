@@ -48,7 +48,7 @@ function renderBlog() {
             <div class="card">
                 <img src="${datas[i].image}" alt="">
                 <h3>${datas[i].title}</h3>
-                <p>Duration : ${getDuration(datas[i].startDate, datas[i].endDate)}</p>
+                <p>Duration : 3 Month</p>
                 <p>${datas[i].description.substring(0, 155)}<a href="blog-detail.html">...</a></p>
                 <div class="teknologi">
                     <div>
